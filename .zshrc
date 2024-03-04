@@ -16,6 +16,7 @@ export PATH=$PATH:$(yarn global bin)
 # Aliases
 alias ls="eza -a --no-user --no-time"
 alias cat="bat"
+alias compress-video="sh $HOME/scripts/compress-video.sh"
 
 ## React Native Aliases
 alias pod-install-new="bundle install && RCT_NEW_ARCH_ENABLED=1 bundle exec pod install"

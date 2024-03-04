@@ -13,6 +13,7 @@ brew install zsh-completions
 brew install neofetch
 brew install rvm
 brew install stow 
+brew install ffmpeg
 
 # Casks
 brew install --cask arc
