@@ -25,8 +25,11 @@
     colorMoved = default
 [alias]
 	lo = log --oneline
+	tree = log --oneline --graph --decorate --all
 [gpg]
 	program = /opt/homebrew/bin/gpg
 [rerere]
 	enabled = true
 	autoUpdate = true
+[help]
+	autocorrect = 1
