@@ -46,3 +46,6 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 eval "$(direnv hook bash)"
 alias python=/usr/bin/python3
+
+
+export LANG=en_US.UTF-8
