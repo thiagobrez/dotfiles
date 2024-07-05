@@ -9,11 +9,12 @@ brew install git
 brew install yarn
 brew install node
 brew install nvm
-brew install zsh-completions
 brew install neofetch
 brew install rvm
 brew install stow 
 brew install ffmpeg
+brew install fzf
+brew install zoxide
 
 # Casks
 brew install --cask arc
@@ -22,15 +23,9 @@ brew install --cask obsidian
 brew install --cask 1password
 brew install --cask raycast
 brew install --cask cleanshot
-brew install --cask notion
 brew install --cask iterm2
-brew install --cask calibre
 brew install --cask spotify
 brew install --cask fork
-
-# Install ohmyzsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 
 # React native
 brew install watchman
