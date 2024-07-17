@@ -9,7 +9,8 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:ANDROID_HOME/emulator
 export PATH=$PATH:ANDROID_HOME/platform-tools
 export PATH=$PATH:$(yarn global bin)
-
+export PATH=~/Library/Android/sdk/tools:$PATH
+export PATH=~/Library/Android/sdk/platform-tools:$PATH
 # Aliases
 alias ls="eza -a --no-user --no-time"
 alias cat="bat"
