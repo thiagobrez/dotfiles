@@ -14,6 +14,7 @@ export PATH=~/Library/Android/sdk/platform-tools:$PATH
 # Aliases
 alias ls="eza -a --no-user --no-time"
 alias cat="bat"
+alias lg="lazygit"
 alias compress-video="sh $HOME/scripts/compress-video.sh"
 
 ## React Native Aliases
