@@ -11,21 +11,23 @@ brew install node
 brew install nvm
 brew install neofetch
 brew install rvm
-brew install stow 
+brew install stow
 brew install ffmpeg
 brew install fzf
 brew install zoxide
 
 # Casks
 brew install --cask arc
-brew install --cask visual-studio-code
-brew install --cask obsidian
-brew install --cask 1password
+brew install --cask zed
+brew install --cask bitwarden
 brew install --cask raycast
 brew install --cask cleanshot
-brew install --cask iterm2
-brew install --cask spotify
-brew install --cask fork
+brew install --cask whatsapp
+brew install --cask todoist
+brew install --cask discord
+brew install --cask minisim
+brew install --cask devcleaner
+brew install --cask muzzle
 
 # React native
 brew install watchman

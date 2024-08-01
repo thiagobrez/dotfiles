@@ -1,22 +1,8 @@
 [alias]
     co-pr = !sh -c 'git fetch origin pull/$1/head:pr/$1 && git checkout pr/$1' -
-    st = status
-    s = switch
-    cp = cherry-pick
-    cpc = cherry-pick --continue
-    cps = cherry-pick --skip
-    cpa = cherry-pick --abort
-    rbc = rebase --continue
-    rbs = rebase --skip
-    rba = rebase --abort
-    ras = restore . --staged
-    rsh = reset --hard
-    puh = push -u origin head
-    wip = commit -am WIP --no-verify
-    amend = commit --amend --no-edit
 [user]
-	name = Oskar Kwaśniewski
-	email = oskarkwasniewski@icloud.com
+	name = Thiago Brezinski
+	email = thiagobrez@gmail.com
 [push]
 	autoSetupRemote = true
 [core]

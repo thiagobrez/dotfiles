@@ -7,15 +7,8 @@ export PATH=~/Library/Android/sdk/tools:$PATH
 export PATH=~/Library/Android/sdk/platform-tools:$PATH
 
 # Aliases
-alias ls="eza -a --no-user --no-time"
-alias cat="bat"
-alias lg="lazygit"
 alias compress-video="sh $HOME/scripts/compress-video.sh"
-
-## React Native Aliases
-alias pod-install-new="bundle install && RCT_NEW_ARCH_ENABLED=1 bundle exec pod install"
-alias pod-install-old="bundle install && bundle exec pod install"
-
+alias gss="git status"
 
 export PATH=/opt/homebrew/bin:$PATH
 
@@ -31,7 +24,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 
 export LANG=en_US.UTF-8
 
@@ -84,4 +76,3 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
-

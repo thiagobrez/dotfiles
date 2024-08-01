@@ -20,10 +20,10 @@ defaults write com.apple.dock show-process-indicators -bool true
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# System Preferences > Mission Controll > Automatically rearrange Spaces based on most recent use
+# System Preferences > Mission Control > Automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
-# System Preferences > Mission Controll > Dashboard
+# System Preferences > Mission Control > Dashboard
 defaults write com.apple.dock dashboard-in-overlay -bool true
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
