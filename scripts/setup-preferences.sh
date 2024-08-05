@@ -6,14 +6,20 @@ defaults write -globalDomain NSTableViewDefaultSizeMode -int 2
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+# Useful site for finding defaults
+# https://macos-defaults.com
+
+# System Preferences > Dock > Automatically hide and show the dock:
+defaults write com.apple.dock "autohide" -bool "true"
+
 # System Preferences > Dock > Size:
-defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock tilesize -int 50
 
 # System Preferences > Dock > Magnification:
 defaults write com.apple.dock magnification -bool true
 
 # System Preferences > Dock > Size (magnified):
-defaults write com.apple.dock largesize -int 54
+defaults write com.apple.dock largesize -int 70
 
 # System Preferences > Dock > Show indicators for open applications
 defaults write com.apple.dock show-process-indicators -bool true
