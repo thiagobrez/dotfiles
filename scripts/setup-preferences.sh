@@ -1,64 +1,83 @@
-# System Preferences > General > Click in the scrollbar to: Jump to the spot that's clicked
+# Useful site for finding defaults
+# https://macos-defaults.com
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# General: click in the scrollbar to jump to the spot that's clicked
 defaults write -globalDomain AppleScrollerPagingBehavior -bool true
 
-# System Preferences > General > Sidebar icon size: Medium
+# General: set sidebar icon size to Medium
 defaults write -globalDomain NSTableViewDefaultSizeMode -int 2
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# Useful site for finding defaults
-# https://macos-defaults.com
-
-# System Preferences > Dock > Automatically hide and show the dock:
+# Dock: automatically hide and show the dock
 defaults write com.apple.dock "autohide" -bool "true"
 
 # Dock: do not show recents
 defaults write com.apple.dock "show-recents" -bool "false"
 
-# System Preferences > Dock > Size:
+# Dock: tile size
 defaults write com.apple.dock tilesize -int 50
 
-# System Preferences > Dock > Magnification:
-defaults write com.apple.dock magnification -bool true
-
-# System Preferences > Dock > Size (magnified):
+# Dock: tile size (maginified)
 defaults write com.apple.dock largesize -int 70
 
-# System Preferences > Dock > Show indicators for open applications
+# Dock: enable magnification
+defaults write com.apple.dock magnification -bool true
+
+# Dock: show indicators for open applications
 defaults write com.apple.dock show-process-indicators -bool true
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# System Preferences > Mission Control > Automatically rearrange Spaces based on most recent use
+# Mission Control: automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
-# System Preferences > Mission Control > Dashboard
+# Mission Control: group windows by application
+defaults write com.apple.dock "expose-group-apps" -bool "true"
+
+# Mission Control: enabled dashboard in overlay
 defaults write com.apple.dock dashboard-in-overlay -bool true
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# System Preferences > Keyboard >
-defaults write NSGlobalDomain KeyRepeat -int 2
+# Keyboard: repeat keys when holding down
+defaults write NSGlobalDomain "ApplePressAndHoldEnabled" -bool "false"
 
-# System Preferences > Keyboard >
+# Keyboard: change initial key repeat time
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
+
+# Keyboard: change key repeat time
+defaults write NSGlobalDomain KeyRepeat -int 2
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-# Finder > Preferences > Show all filename extensions
+# Finder: show file extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Finder > Preferences > Show warning before changing an extension
+# Finder: show hidden files
+defaults write com.apple.finder "AppleShowAllFiles" -bool "true"
+
+# Finder: do not show warning before changing an extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# Finder > Preferences > Show warning before removing from iCloud Drive
+# Finder: do not show warning before removing from iCloud Drive
 defaults write com.apple.finder FXEnableRemoveFromICloudDriveWarning -bool false
 
-# Finder > View > As List
+# Finder: view as list
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-# Finder > View > Show Path Bar
+# Finder: show path bar at the bottom
 defaults write com.apple.finder ShowPathbar -bool true
+
+# Finder: keep folders on top when sorting by name
+defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# Simulator: save screenshots to Downloads folder
+defaults write com.apple.iphonesimulator "ScreenShotSaveLocation" -string "~/Downloads"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
