@@ -5,6 +5,7 @@ tap "majd/repo"
 
 # Install packages
 brew "git"
+brew "git-delta"
 brew "node"
 brew "nvm"
 brew "yarn"
