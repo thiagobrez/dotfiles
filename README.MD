@@ -1,4 +1,4 @@
-# Dotfiles
+# dotfiles
 
 1. Clone this repo to `~/.`
 
