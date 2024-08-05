@@ -12,6 +12,9 @@ defaults write -globalDomain NSTableViewDefaultSizeMode -int 2
 # System Preferences > Dock > Automatically hide and show the dock:
 defaults write com.apple.dock "autohide" -bool "true"
 
+# Dock: do not show recents
+defaults write com.apple.dock "show-recents" -bool "false"
+
 # System Preferences > Dock > Size:
 defaults write com.apple.dock tilesize -int 50
 
