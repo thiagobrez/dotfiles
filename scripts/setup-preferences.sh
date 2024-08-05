@@ -46,10 +46,10 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 defaults write NSGlobalDomain "ApplePressAndHoldEnabled" -bool "false"
 
 # Keyboard: change initial key repeat time
-defaults write NSGlobalDomain InitialKeyRepeat -int 15
+defaults write NSGlobalDomain InitialKeyRepeat -int 5
 
 # Keyboard: change key repeat time
-defaults write NSGlobalDomain KeyRepeat -int 2
+defaults write NSGlobalDomain KeyRepeat -int 1
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
