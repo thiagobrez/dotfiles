@@ -6,7 +6,7 @@
 [push]
 	autoSetupRemote = true
 [core]
-    pager = delta
+    pager = delta --dark
 
 [interactive]
     diffFilter = delta --color-only
