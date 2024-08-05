@@ -10,9 +10,6 @@ brew upgrade
 # Install brew packages from Brewfile
 brew bundle
 
-# Install SDKMAN! to manage JDK versions
-curl -s "https://get.sdkman.io" | bash
-
 # Install Dracula Terminal Theme
 git clone https://github.com/dracula/terminal-app.git
 
