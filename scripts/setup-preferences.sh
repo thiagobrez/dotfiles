@@ -76,6 +76,14 @@ defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true"
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+# Control Center: always show Bluetooth in menu bar
+defaults -currentHost write com.apple.controlcenter Bluetooth -int 18
+
+# Control Center: always show Sound in menu bar
+defaults -currentHost write com.apple.controlcenter Sound -int 18
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 # Simulator: save screenshots to Downloads folder
 defaults write com.apple.iphonesimulator "ScreenShotSaveLocation" -string "~/Downloads"
 
