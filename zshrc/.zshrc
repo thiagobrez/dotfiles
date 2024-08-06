@@ -65,6 +65,13 @@ export PATH=/opt/homebrew/bin:$PATH
 # Yarn
 export PATH=$PATH:$(yarn global bin)
 
+# bun completions
+[ -s "/Users/thiagobrez/.bun/_bun" ] && source "/Users/thiagobrez/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
