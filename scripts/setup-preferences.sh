@@ -51,6 +51,15 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 15
 # Keyboard: change key repeat time
 defaults write NSGlobalDomain KeyRepeat -int 2
 
+# Keyboard: disable automatic capitalisation
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
+# Keyboard: disable automatic period substitution
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+
+# Keyboard: disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Finder: show file extensions
