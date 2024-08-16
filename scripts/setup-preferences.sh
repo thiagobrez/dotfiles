@@ -84,6 +84,14 @@ defaults -currentHost write com.apple.controlcenter Sound -int 18
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+# Hot corner: set Bottom Left Hot Corner to Launchpad
+defaults write com.apple.dock wvous-bl-corner -int 11
+
+# Hot corner: set Bottom Right Hot Corner to Desktop
+defaults write com.apple.dock wvous-bl-corner -int 4
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 # Simulator: save screenshots to Downloads folder
 defaults write com.apple.iphonesimulator "ScreenShotSaveLocation" -string "~/Downloads"
 
