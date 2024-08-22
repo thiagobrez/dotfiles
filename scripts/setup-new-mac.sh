@@ -27,6 +27,11 @@ echo "Installing Bun..."
 curl -fsSL https://bun.sh/install | bash
 echo "Bun installed successfully ✅"
 
+# Install idb for Flipper
+echo "Installing idb..."
+pip3 install --break-system-packages fb-idb
+echo "idb installed successfully ✅"
+
 # Symlink dotfiles to the HOME directory
 echo "Symlinking dotfiles..."
 stow -t ~ -d ~/dotfiles zshrc gitconfig zed
