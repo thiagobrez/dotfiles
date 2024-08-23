@@ -30,6 +30,7 @@ echo "Bun installed successfully ✅"
 # Install idb for Flipper
 echo "Installing idb..."
 pip3 install --break-system-packages fb-idb
+sudo ln -s /opt/homebrew/bin/idb_companion /usr/local/bin/idb_companion
 echo "idb installed successfully ✅"
 
 # Symlink dotfiles to the HOME directory
