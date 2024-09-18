@@ -76,6 +76,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# flashlight
+export PATH="$HOME/.flashlight/bin:$PATH"
+
 # ============================== NVM ==============================
 
 export NVM_DIR="$HOME/.nvm"
