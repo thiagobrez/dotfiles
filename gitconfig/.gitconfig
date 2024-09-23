@@ -33,3 +33,5 @@
 	autoUpdate = true
 [help]
 	autocorrect = 1
+[pull]
+	ff = only

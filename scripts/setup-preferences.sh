@@ -62,6 +62,11 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+# Mouse: disable pointer acceleration (prevents mouse flickering issues)
+defaults write NSGlobalDomain com.apple.mouse.linear -bool "true"
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 # Finder: show file extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
