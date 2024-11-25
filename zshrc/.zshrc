@@ -65,6 +65,13 @@ export PATH=/opt/homebrew/bin:$PATH
 # Yarn
 export PATH=$PATH:$(yarn global bin)
 
+# pnpm
+export PNPM_HOME="/Users/thiagobrez/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+
 # bun completions
 [ -s "/Users/thiagobrez/.bun/_bun" ] && source "/Users/thiagobrez/.bun/_bun"
 

@@ -21,6 +21,7 @@ brew "fwartner/tap/mac-cleanup"
 brew "neofetch"
 brew "stow"
 brew "idb-companion"
+brew "scroll-reverser"
 
 # Install casks
 cask "arc"
