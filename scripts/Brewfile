@@ -22,6 +22,7 @@ brew "neofetch"
 brew "stow"
 brew "idb-companion"
 brew "scroll-reverser"
+brew "deskpad"
 
 # Install casks
 cask "arc"
