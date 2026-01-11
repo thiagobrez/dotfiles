@@ -1,5 +1,3 @@
-[alias]
-    co-pr = !sh -c 'git fetch origin pull/$1/head:pr/$1 && git checkout pr/$1' -
 [user]
 	name = Thiago Brezinski
 	email = thiagobrez@gmail.com
@@ -33,5 +31,3 @@
 	autoUpdate = true
 [help]
 	autocorrect = 1
-[pull]
-	ff = only
