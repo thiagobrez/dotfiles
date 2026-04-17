@@ -48,7 +48,6 @@ SPACESHIP_CHAR_SUFFIX=" "
 # =======================================================================
 
 # Aliases
-alias compress-video="sh $HOME/scripts/compress-video.sh"
 alias gss="git status"
 
 # Android Studio
@@ -61,9 +60,6 @@ export PATH=~/Library/Android/sdk/platform-tools:$PATH
 
 # Homebrew
 export PATH=/opt/homebrew/bin:$PATH
-
-# Yarn
-export PATH=$PATH:$(yarn global bin)
 
 # pnpm
 export PNPM_HOME="/Users/thiagobrez/Library/pnpm"
@@ -116,5 +112,3 @@ load-nvmrc() {
 
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
-
-# =======================================================================

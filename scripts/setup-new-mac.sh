@@ -17,6 +17,9 @@ echo "Upgrading Homebrew..."
 brew upgrade
 echo "Homebrew upgraded successfully ✅"
 
+# Install mas
+brew install mas
+
 # Install Homebrew packages from Brewfile
 echo "Installing packages from Brewfile..."
 brew bundle
@@ -29,7 +32,7 @@ echo "Bun installed successfully ✅"
 
 # Symlink dotfiles to the HOME directory
 echo "Symlinking dotfiles..."
-stow -t ~ -d ~/dotfiles zshrc gitconfig
+stow -t ~ -d ~/dotfiles zshrc gitconfig zed
 
 echo "Symlinked dotfiles successfully ✅"
 echo "Installed all apps & utils 🎉"
